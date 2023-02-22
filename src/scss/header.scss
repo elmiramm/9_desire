@@ -7,17 +7,8 @@
 		left: 0;
 		z-index: 50;
 	}
-	&::before {
-		content: "";
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		background: $gradient;
-		z-index: 2;
-	}
-	&__body {
+
+	&__inner {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -95,5 +86,3 @@
 		}
 	}
 }
-
-@import "burger.scss";

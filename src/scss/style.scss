@@ -127,7 +127,7 @@ select {
 	cursor: pointer;
 	@media (any-hover: hover) {
 		&:hover {
-			background-color: #d000;
+			background-color: #000;
 			color: $accentColor;
 		}
 	}
