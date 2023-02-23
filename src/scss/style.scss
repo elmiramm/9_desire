@@ -7,6 +7,7 @@ $fontSize: 16px;
 $mainTextColor: #5A5A5A;
 $textColor: #707070;
 $accentColor: #FFEF35;
+$title: #363838;
 
 $bg: #fff;
 
@@ -118,11 +119,11 @@ select {
 	text-align: center;
 	transition: all 0.3s ease;
 	min-height: 40px;
-	min-width: 160PX;
+	min-width: 160px;
 	line-height: 1.75;
 	font-weight: 600;
 	color: #FFFFF0;
-	background-color: #363838;
+	background-color: $title;
 	border-radius: 21px;
 	cursor: pointer;
 	@media (any-hover: hover) {
@@ -141,14 +142,14 @@ select {
 	line-height: 1.42;
 	font-weight: 700;
 	text-align: center;
-	color: #363838;
+	color: $title;
 }
 .subtitle {
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
 	line-height: 1.44;
-	color: #363838;
+	color: $title;
 
 	margin-bottom: 14px;
 }
