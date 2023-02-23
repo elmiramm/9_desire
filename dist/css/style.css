@@ -297,6 +297,7 @@ body {
   line-height: 1.69;
   color: #5A5A5A;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 a {
@@ -514,6 +515,11 @@ select {
   max-width: 694px;
   background-color: #fff;
   padding: 41px 47px;
+  box-shadow: -2px 3px 17px 0px #000;
+}
+.rightsite-menu.rightsite-menu--close {
+  transform: translateX(500%);
+  transition: all 0.6s ease;
 }
 .rightsite-menu__close {
   cursor: pointer;
@@ -547,4 +553,7 @@ select {
   left: 50%;
   transform: translateX(-50%);
   bottom: -20px;
+}
+.rightsite-menu__text {
+  margin-bottom: 75px;
 }

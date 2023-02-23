@@ -51,8 +51,16 @@ window.onload = function () {
 	function documentActions(e) {
 		const targetElement = e.target;
 
+		//------------Close/Open-rightsite-menu-------------
+		if (targetElement.classList.contains('header__btn') || targetElement.closest('.header__btn')) {
+			document.querySelector(".rightsite-menu").classList.remove('rightsite-menu--close');
+		}
+		if (targetElement.classList.contains('rightsite-menu__close') || targetElement.closest('.rightsite-menu__close')) {
+			document.querySelector(".rightsite-menu").classList.add('rightsite-menu--close');
+		}
+		//------------Close/Open-rightsite-menu-End------------
 
-		// Если кликнули на бургер
+		// ---------Если кликнули на бургер---------
 		if (targetElement.classList.contains('burger') || targetElement.closest('.burger')) {
 
 			const elem = targetElement.classList.contains('burger') ? targetElement : targetElement.closest('.burger');
@@ -61,6 +69,8 @@ window.onload = function () {
 			const menuBody = document.querySelector('.header__menu');
 			menuBody.classList.toggle('menu-active');
 		}
+		// -------Если кликнули на бургер-End----------
 	}
 	//------Действия-при-кликах-End-----
+
 }

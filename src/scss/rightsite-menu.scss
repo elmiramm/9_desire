@@ -6,6 +6,11 @@
 	max-width: 694px;
 	background-color: #fff;
 	padding: 41px 47px;
+	box-shadow: -2px 3px 17px 0px #000;
+	&.rightsite-menu--close {
+		transform: translateX(500%);
+		transition: all 0.6s ease;
+	}
 	&__close {
 		cursor: pointer;
 		margin-bottom: 60px;
@@ -40,4 +45,8 @@
 			bottom: -20px;
 		}
 	}
+	&__text {
+		margin-bottom: 75px;
+	}
+	
 }

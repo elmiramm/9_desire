@@ -360,6 +360,7 @@ body {
   line-height: 1.69;
   color: #5A5A5A;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 a {
@@ -629,4 +630,59 @@ select {
   line-height: 1.75;
   color: #A1A1A1;
   background-color: #363838;
+}
+
+.rightsite-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 694px;
+  background-color: #fff;
+  padding: 41px 47px;
+}
+
+.rightsite-menu.rightsite-menu--close {
+  display: none;
+}
+
+.rightsite-menu__close {
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.rightsite-menu__logo {
+  display: inline-block;
+  margin-bottom: 41px;
+}
+
+.rightsite-menu__logo img {
+  max-width: 485px;
+}
+
+.rightsite-menu__content {
+  text-align: center;
+  max-width: 485px;
+  margin-right: 48px;
+}
+
+.rightsite-menu__inner {
+  margin-left: 73px;
+}
+
+.rightsite-menu__title {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.rightsite-menu__title::before {
+  content: "";
+  position: absolute;
+  width: 252px;
+  height: 1px;
+  background-color: #6D7278;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -20px;
 }
