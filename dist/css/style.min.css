@@ -104,10 +104,6 @@
   content: "\e90b";
 }
 
-.icon-arrow-right2:before {
-  content: "\ea3c";
-}
-
 /**
  * Swiper 8.4.5
  * Most modern mobile touch slider and framework with hardware accelerated transitions
@@ -403,6 +399,7 @@ select {
   font-weight: 700;
   line-height: 1.44;
   color: #363838;
+  margin-bottom: 14px;
 }
 
 .header__inner {
