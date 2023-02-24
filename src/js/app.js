@@ -6,8 +6,8 @@ flsFunctions.isWebp();
 // ------Swiper-------
 Swiper.use([Navigation, Pagination, Parallax]);
 
-if (document.querySelector('.slider-section__body')) {
-	new Swiper('.slider-section__body', {
+if (document.querySelector('.slider-top__body')) {
+	new Swiper('.slider-top__body', {
 		observer: true,
 		observeParents: true,
 		slidesPerView: 1,
@@ -19,13 +19,13 @@ if (document.querySelector('.slider-section__body')) {
 		preloadImage: false,
 		parallax: true,
 		pagination: {
-			el: '.slider-section-controls .dots',
+			el: '.slider-top-controls .dots',
 			clickable: true,
 		},
-		navigation: {
-			nextEl: '.slider-section .slider-arrow--next',
-			prevEl: '.slider-section .slider-arrow--prev',
-		},
+		// navigation: {
+		// 	nextEl: '.slider-section .slider-arrow--next',
+		// 	prevEl: '.slider-section .slider-arrow--prev',
+		// },
 		breakpoints: {
 			279: {
 				slidesPerView: 1.1,
