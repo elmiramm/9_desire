@@ -11,35 +11,36 @@ if (document.querySelector('.slider-top__body')) {
 		observer: true,
 		observeParents: true,
 		slidesPerView: 1,
-		spaceBetween: 32,
-		watchOverflow: true,
+		spaceBetween: 100,
+		watchOverflow: false,
 		speed: 800,
 		loop: true,
 		loopAdditionalSlides: 5,
 		preloadImage: false,
-		parallax: true,
+		// parallax: true,
 		pagination: {
-			el: '.slider-top-controls .dots',
+			el: '.slider-top__controls .dots',
 			clickable: true,
+			dynamicBullets: true,
 		},
 		// navigation: {
 		// 	nextEl: '.slider-section .slider-arrow--next',
 		// 	prevEl: '.slider-section .slider-arrow--prev',
 		// },
-		breakpoints: {
-			279: {
-				slidesPerView: 1.1,
-				spaceBetween: 15,
-			},
-			768: {
-				slidesPerView: 2,
-				spaceBetween: 20,
-			},
-			992: {
-				slidesPerView: 3,
-				spaceBetween: 32,
-			},
-		}
+		// breakpoints: {
+		// 	279: {
+		// 		slidesPerView: 1.1,
+		// 		spaceBetween: 15,
+		// 	},
+		// 	768: {
+		// 		slidesPerView: 2,
+		// 		spaceBetween: 20,
+		// 	},
+		// 	992: {
+		// 		slidesPerView: 3,
+		// 		spaceBetween: 32,
+		// 	},
+		// }
 	});
 }
 // ------Swiper-End-------
