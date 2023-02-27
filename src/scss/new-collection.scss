@@ -1,0 +1,24 @@
+.new-collection {
+	margin-bottom: 104px;
+	&__title {
+		margin-bottom: 50px;
+		position: relative;
+		&::before {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 252px;
+			height: 1px;
+			background-color: #979797;
+			bottom: -25px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	&__text {
+		text-align: center;
+		max-width: 730px;
+		margin: 0 auto 27px;
+		
+	}
+}
