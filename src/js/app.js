@@ -1,5 +1,8 @@
 import * as flsFunctions from "./modules/functions.js";
 import Swiper, { Navigation, Pagination, Parallax } from 'swiper';
+import mixitup from 'mixitup';
+
+var mixer = mixitup('.gallery__inner');
 
 flsFunctions.isWebp();
 
