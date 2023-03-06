@@ -1,0 +1,62 @@
+.howitworks {
+	padding: 80px 30px;
+
+	&__items-box {
+		display: flex;
+		border-bottom: 2px solid rgba($color: $title, $alpha: 0.7);
+		position: relative;
+		align-items: flex-end;
+	}
+	&__item {
+		max-width: 268px;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 40px 0;
+		position: relative;
+		&::before {
+			content: "";
+			position: absolute;
+			width: 2px;
+			height: 20px;
+			background: rgba($color: $title, $alpha: 0.7);
+		}
+		&--top {
+			&:not(:first-child) {
+				margin-left: 317px;
+			}
+			&::before {
+				bottom: 0;
+			}
+		}
+		&--bottom {
+			margin-left: 306px;
+			&::before {
+				top: 0;
+			}
+		}
+		&--mark {
+			&::before {
+				content: "";
+				position: absolute;
+				bottom: -6px;
+				left: 0;
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background-color: $title;
+			}
+		}
+
+
+		
+	}
+	&__item-title {
+		margin: auto 10px;
+	}
+
+	&__item-text {
+		margin-top: 13px;
+	}
+	
+}

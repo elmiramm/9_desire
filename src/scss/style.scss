@@ -153,7 +153,6 @@ select {
 }
 .subtitle {
 	font-family: 'Montserrat';
-	font-style: normal;
 	font-weight: 700;
 	line-height: 1.44;
 	color: $title;
@@ -171,5 +170,6 @@ select {
 @import "new-collection.scss";
 @import "collection.scss";
 @import "decor.scss";
+@import "howitworks.scss";
 
 
