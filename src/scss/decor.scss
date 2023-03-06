@@ -1,0 +1,31 @@
+.decor {
+	padding: 170px 0 155px;
+	background-image: url(../img/decor-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 616px;
+	&__title {
+		max-width: 530px;
+		font-family: 'Montserrat';
+		font-weight: 700;
+		font-size: 60px;
+		line-height: 1.33;
+		color: $title;
+		padding-bottom: 22px;
+		margin-bottom: 22px;
+		position: relative;
+		&::before {
+			content: "";
+			width: 200px;
+			height: 1px;
+			background-color: #6D7278;
+
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+	}
+	&__text {
+		max-width: 540px;
+	}
+}
