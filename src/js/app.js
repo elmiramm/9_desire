@@ -57,6 +57,19 @@ if (document.querySelector('.slider-top__body')) {
 window.onload = function () {
 	document.addEventListener('click', documentActions);
 
+	//-------Active links on Page--------
+	const page = document.querySelector('.page');
+	if (page.classList.contains("about-page")) {
+		const about = document.querySelectorAll('.menu__list-link').forEach(elem => {
+			if (elem.textContent === "About") {
+				elem.classList.add('active-header-link');
+			}
+		})
+	}
+	//-------Active links on Page-End-------
+
+
+
 	//------Действия-при-кликах------
 	function documentActions(e) {
 		const targetElement = e.target;
