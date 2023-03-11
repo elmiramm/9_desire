@@ -1,0 +1,24 @@
+.page-prev {
+	margin-top: -53px;
+	margin-bottom: 129px;
+
+	background-image: url(../img/page-prev-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	& .container {
+		min-height: 399px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__title {
+		font-family: 'Montserrat';
+		font-weight: 700;
+		font-size: 60px;
+		line-height: 1.33;
+		color: $title;
+	}
+}

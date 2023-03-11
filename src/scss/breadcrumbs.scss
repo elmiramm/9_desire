@@ -1,8 +1,10 @@
 .breadcrumbs {
 	background-color: rgba($color: #DFDFDF, $alpha: 0.5);
 	padding: 14px 0px;
+	position: relative;
+	z-index: 100;
 
-	.about & {
+	&.about {
 		background-color: transparent;
 	}
 	&__list {
