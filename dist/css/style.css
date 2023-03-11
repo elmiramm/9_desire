@@ -906,3 +906,23 @@ select {
   line-height: 1.58;
   color: #363838;
 }
+
+.breadcrumbs {
+  background-color: rgba(223, 223, 223, 0.5);
+  padding: 14px 0px;
+}
+.about .breadcrumbs {
+  background-color: transparent;
+}
+.breadcrumbs__list {
+  display: flex;
+}
+.breadcrumbs__list-item:not(:last-child):after {
+  content: "/";
+  margin-right: 4px;
+  margin-left: -4px;
+}
+.breadcrumbs__list-link {
+  font-size: 14px;
+  line-height: 2;
+}

@@ -1,0 +1,21 @@
+.breadcrumbs {
+	background-color: rgba($color: #DFDFDF, $alpha: 0.5);
+	padding: 14px 0px;
+
+	.about & {
+		background-color: transparent;
+	}
+	&__list {
+		display: flex;
+	}
+	&__list-item:not(:last-child):after {
+		content: "/";
+		margin-right: 4px;
+		margin-left: -4px;
+	}
+	&__list-link {
+		font-size: 14px;
+		line-height: 2;
+	}
+}
+
