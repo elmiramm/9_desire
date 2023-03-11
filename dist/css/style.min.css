@@ -769,7 +769,7 @@ select {
 }
 
 .howitworks {
-  padding: 80px 30px;
+  padding: 80px 0 30px;
 }
 .howitworks__items-box {
   display: flex;
@@ -819,4 +819,45 @@ select {
 }
 .howitworks__item-text {
   margin-top: 13px;
+}
+
+.gallery {
+  padding: 40px 0px 88px;
+}
+.gallery__buttons {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.gallery__btn {
+  padding: 6px 16px;
+  margin: 0 13px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 2;
+  color: #8F8D8D;
+  border-radius: 20px;
+  border: 1px solid #8F8D8D;
+}
+.gallery__items {
+  display: grid;
+  grid-gap: 30px 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.gallery__item:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  max-height: 1150px;
+}
+
+.mixitup-control-active {
+  background-color: #FFEF35;
+  border: 1px solid #FFEF35;
+  transition: background-color 0.3s ease;
+  color: #000;
 }
