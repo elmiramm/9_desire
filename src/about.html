@@ -8,12 +8,16 @@ title: "Desire | About"
 <body>
 	<div class="wrapper">
 		@@include("html/header.html")
+		@@include("html/breadcrumbs.html", {
+		link: "#",
+		linkTitle: "About"
+		})
 
-		<main class="page about-page">
-			@@include("html/breadcrumbs.html", {
-			link: "#",
-			linkTitle: "About"
-			})
+		<main class="page about">
+			@@include("html/page-prev.html")
+			@@include("html/about-content.html")
+
+
 		</main>
 
 		@@include("html/footer.html")
