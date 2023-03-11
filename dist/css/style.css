@@ -862,3 +862,47 @@ select {
   transition: background-color 0.3s ease;
   color: #000;
 }
+
+.blog-box {
+  margin-bottom: 100px;
+}
+.blog-box__title {
+  max-width: 430px;
+  margin: 0 auto 29px;
+}
+.blog-box__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  align-items: center;
+}
+.blog-box__links {
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 600;
+  color: #707070;
+}
+.blog-box__link {
+  margin-left: 10px;
+  position: relative;
+}
+.blog-box__link::before {
+  content: "";
+  width: 1px;
+  height: 14px;
+  background-color: #707070;
+  position: absolute;
+  left: -7px;
+  bottom: 1px;
+}
+.blog-box__item-img-link {
+  margin-bottom: 19px;
+  display: inline-block;
+}
+.blog-box__item-title-link {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.58;
+  color: #363838;
+}
