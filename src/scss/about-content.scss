@@ -1,0 +1,38 @@
+.about {
+	&__content {
+		margin-bottom: 98px;
+	}
+	&__title {
+		max-width: 822px;
+		text-align-last: left;
+		position: relative;
+		margin-bottom: 45px;
+		&::before {
+			content: "";
+			width: 200px;
+			height: 2px;
+			background-color: #979797;
+			position: absolute;
+			bottom: -20px;
+		}
+	}
+	&__text {
+		max-width: 825px;
+		margin-left: auto;
+		margin-bottom: 88px;
+		& p:not(:last-child) {
+			margin-bottom: 35px;
+		}
+	}
+	&__popup {
+		min-height: 414px;
+		background-image: url("../img/popup-bg.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
