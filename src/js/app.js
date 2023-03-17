@@ -2,6 +2,9 @@ import * as flsFunctions from "./modules/functions.js";
 import Swiper, { Navigation, Pagination, Parallax } from 'swiper';
 import mixitup from 'mixitup';
 
+flsFunctions.isWebp();
+
+//--------MixitUp---------
 if (document.querySelector(".gallery__inner")) {
 	var mixer = mixitup('.gallery__inner', {
 		load: {
@@ -9,8 +12,8 @@ if (document.querySelector(".gallery__inner")) {
 		}
 	});
 }
+//--------MixitUp-End--------
 
-flsFunctions.isWebp();
 
 // ------Swiper-------
 Swiper.use([Navigation, Pagination, Parallax]);
