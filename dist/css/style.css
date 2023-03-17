@@ -1001,3 +1001,66 @@ select {
   justify-content: center;
   align-items: center;
 }
+
+.inspiration {
+  margin-bottom: 12px;
+  min-height: 551px;
+  position: relative;
+}
+.inspiration::before {
+  content: "";
+  position: absolute;
+  height: 414px;
+  background-image: url(../img/inspiration-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 414px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.inspiration__inner {
+  display: flex;
+  gap: 78px;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  z-index: 5;
+}
+.inspiration__img {
+  height: 506px;
+}
+.inspiration__content {
+  max-width: 825px;
+}
+.inspiration__title {
+  margin-bottom: 41px;
+  text-align-last: left;
+  position: relative;
+}
+.inspiration__title::before {
+  content: "";
+  width: 200px;
+  height: 2px;
+  background-color: #979797;
+  position: absolute;
+  bottom: -20px;
+}
+.inspiration__text {
+  margin-bottom: 64px;
+}
+.inspiration__item:not(:last-child) {
+  margin-bottom: 33px;
+}
+.inspiration__item-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid #fff;
+}
+.inspiration__line {
+  height: 2px;
+  background-color: #363838;
+  border-radius: 4px;
+  margin-top: -2px;
+}
