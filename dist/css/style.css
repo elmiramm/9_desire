@@ -672,6 +672,9 @@ select {
 .new-collection {
   margin-bottom: 104px;
 }
+.new-collection--about {
+  margin-bottom: 70px;
+}
 .new-collection__title {
   margin-bottom: 50px;
   position: relative;
