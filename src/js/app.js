@@ -76,6 +76,13 @@ window.onload = function () {
 			}
 		})
 	}
+	if (page.classList.contains("contact")) {
+		const contact = document.querySelectorAll('.menu__list-link').forEach(elem => {
+			if (elem.textContent === "Contact") {
+				elem.classList.add('active-header-link');
+			}
+		})
+	}
 	//-------Active links on Page-End-------
 
 
