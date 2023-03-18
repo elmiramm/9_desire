@@ -1064,3 +1064,13 @@ select {
   border-radius: 4px;
   margin-top: -2px;
 }
+
+.partners {
+  margin-bottom: 60px;
+}
+.partners__items {
+  display: flex;
+  justify-content: center;
+  gap: 68px;
+  align-items: center;
+}
