@@ -69,6 +69,13 @@ window.onload = function () {
 			}
 		})
 	}
+	if (page.classList.contains("gallery")) {
+		const gallery = document.querySelectorAll('.menu__list-link').forEach(elem => {
+			if (elem.textContent === "Gallery") {
+				elem.classList.add('active-header-link');
+			}
+		})
+	}
 	//-------Active links on Page-End-------
 
 
