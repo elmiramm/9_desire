@@ -520,6 +520,10 @@ select {
 .footer__social-item:not(:last-child), .footer__menu-item:not(:last-child) {
   margin-bottom: 15px;
 }
+.footer__social-img {
+  display: inline-block;
+  margin-right: 8px;
+}
 .footer__copyright {
   padding: 41px 0px;
   text-align: center;
