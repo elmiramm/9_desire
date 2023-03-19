@@ -10,22 +10,7 @@
 	&__info {
 		width: 540px;
 	}
-	&__info-email {
-		display: flex;
-		align-items: center;
-		gap: 14px;
-		font-size: 14px;
-		line-height: 2;
-		font-weight: 600;
-		color: $title;
-		margin-bottom: 22px;
-		& a {
-			text-decoration: underline;
-		}
-		&::before {
-			padding-top: 3px;
-		}
-	}
+	
 	&__info-text {
 		margin-bottom: 16px;
 		max-width: 476px;

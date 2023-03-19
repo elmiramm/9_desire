@@ -163,6 +163,22 @@ select {
 @import "header.scss";
 @import "footer.scss";
 
+.email {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	font-size: 14px;
+	line-height: 2;
+	font-weight: 600;
+	color: $title;
+	margin-bottom: 23px;
+	& a {
+		text-decoration: underline;
+	}
+	&::before {
+		padding-top: 3px;
+	}
+}
 // -----Общие блоки-End -----
 
 @import "rightsite-menu.scss";
@@ -180,4 +196,4 @@ select {
 @import "inspiration.scss";
 @import "partners.scss";
 @import "map.scss";
-
+@import "contact.scss";
