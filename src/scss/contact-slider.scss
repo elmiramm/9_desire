@@ -1,0 +1,26 @@
+.contact__slider {
+	.collection__img {
+		min-height: 170px;
+	}
+
+	.collection__info {
+		padding: 15px;
+	}
+	.collection__info-title {
+		font-size: 16px;
+		line-height: 1.38;
+		text-align: center;
+		margin-bottom: 0;
+		&::before {
+			display: none;
+		}
+	}
+	.swiper-wrapper {
+		margin-bottom: 35px;
+	}
+	.swiper-pagination-bullets {
+		margin: 0 auto;
+	}
+
+
+}

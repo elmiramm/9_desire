@@ -60,6 +60,7 @@ if (document.querySelector('.slider-contact__body')) {
 		observer: true,
 		observeParents: true,
 		slidesPerView: 10,
+		slidesPerGroup: 4, //если нужно чтобы кол-во dots было меньше кол-ва slides
 		spaceBetween: 29,
 		watchOverflow: false,
 		speed: 800,

@@ -1149,3 +1149,25 @@ select {
   padding: 6px 17px;
   margin-bottom: 20px;
 }
+
+.contact__slider .collection__img {
+  min-height: 170px;
+}
+.contact__slider .collection__info {
+  padding: 15px;
+}
+.contact__slider .collection__info-title {
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  margin-bottom: 0;
+}
+.contact__slider .collection__info-title::before {
+  display: none;
+}
+.contact__slider .swiper-wrapper {
+  margin-bottom: 35px;
+}
+.contact__slider .swiper-pagination-bullets {
+  margin: 0 auto;
+}
