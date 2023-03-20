@@ -121,6 +121,13 @@ window.onload = function () {
 			}
 		})
 	}
+	if (page.classList.contains("blog")) {
+		const contact = document.querySelectorAll('.menu__list-link').forEach(elem => {
+			if (elem.textContent === "Blog") {
+				elem.classList.add('active-header-link');
+			}
+		})
+	}
 	//-------Active links on Page-End-------
 
 
