@@ -179,6 +179,14 @@ select {
 		padding-top: 3px;
 	}
 }
+
+.aside-title {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.44;
+	color: $title;
+}
 // -----Общие блоки-End -----
 
 @import "rightsite-menu.scss";
@@ -198,3 +206,5 @@ select {
 @import "map.scss";
 @import "contact.scss";
 @import "contact-slider.scss";
+@import "blog.scss";
+@import "aside.scss";
