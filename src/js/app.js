@@ -55,6 +55,43 @@ if (document.querySelector('.slider-top__body')) {
 		// }
 	});
 }
+if (document.querySelector('.slider-contact__body')) {
+	new Swiper('.slider-contact__body', {
+		observer: true,
+		observeParents: true,
+		slidesPerView: 10,
+		spaceBetween: 29,
+		watchOverflow: false,
+		speed: 800,
+		loop: true,
+		loopAdditionalSlides: 5,
+		preloadImage: false,
+		// parallax: true,
+		pagination: {
+			el: '.slider-contact__controls .dots',
+			clickable: true,
+			dynamicBullets: true,
+		},
+		// navigation: {
+		// 	nextEl: '.slider-section .slider-arrow--next',
+		// 	prevEl: '.slider-section .slider-arrow--prev',
+		// },
+		// breakpoints: {
+		// 	279: {
+		// 		slidesPerView: 1.1,
+		// 		spaceBetween: 15,
+		// 	},
+		// 	768: {
+		// 		slidesPerView: 2,
+		// 		spaceBetween: 20,
+		// 	},
+		// 	992: {
+		// 		slidesPerView: 3,
+		// 		spaceBetween: 32,
+		// 	},
+		// }
+	});
+}
 // ------Swiper-End-------
 
 window.onload = function () {
