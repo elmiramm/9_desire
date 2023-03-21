@@ -5,7 +5,86 @@
 	&__inner {
 		display: flex;
 		justify-content: space-between;
+		gap:30px;
+	}
+	&__items {
+		width: 729px;
+	}
+	&__item {
+		margin-bottom: 80px;
+	}
+	&__item-img {
+		max-width: 729px;
+	}
+	.blog-box__links {
+		margin: 25px 0 10px;
+	}
+	&__item-title {
+		font-family: 'Montserrat';
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 1.58;
+		color: $title;
+		margin-bottom: 6px;
+	}
+	&__blockquote {
+		background-color: rgba($color: #DFDFDF, $alpha: 0.5);
+		margin: 0;
+		margin-bottom: 50px;
+		padding: 54px 64px;
+		text-align: center;
 
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 1.58;
+		color: $title;
+		letter-spacing: -1.3px;
+	}
+	&__blockquote-author {
+		font-weight: 700;
+		letter-spacing: normal;
+		font-style: normal;
+		padding-top: 23px;
+		margin-top: 23px;
+		position: relative;
+		&::before {
+			content: "";
+			width: 200px;
+			height: 1px;
+			background-color: #6D7278;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	.article-popup__box {
+		position: relative;
+	}
+	&__item-popup {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%)
+		translateY(-50%);
+	}
+	.slider-blog {
+		position: relative;
+	}
+	.slider-arrows {
+		padding: 0 16px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 10;
+	}
+	.slider-arrow--prev {
+		transform: rotate(180deg);
 	}
 	&__categories {
 		margin-bottom: 47px;
@@ -56,5 +135,30 @@
 			top: -1px;
 		}
 	}
+	.pagination {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 12px;
 
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 2;
+		color: #707070;
+
+		margin-bottom: 66px;
+	}
+	.pagination__list {
+		display: flex;
+		justify-content: center;
+		gap: 12px;
+		align-items: center;
+	}
+	.pagination__arrow--prev {
+		display: none;
+		transform: rotate(180deg);
+	}
+	.pagination__list-num--active {
+		color: $title;
+	}
 }

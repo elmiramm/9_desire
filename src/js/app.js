@@ -98,7 +98,6 @@ if (document.querySelector('.slider-blog__body')) {
 		observer: true,
 		observeParents: true,
 		slidesPerView: 1,
-		spaceBetween: 29,
 		watchOverflow: false,
 		speed: 800,
 		loop: true,
@@ -158,7 +157,7 @@ window.onload = function () {
 			}
 		})
 	}
-	if (page.classList.contains("blog")) {
+	if (page.classList.contains("blog-page")) {
 		const contact = document.querySelectorAll('.menu__list-link').forEach(elem => {
 			if (elem.textContent === "Blog") {
 				elem.classList.add('active-header-link');
