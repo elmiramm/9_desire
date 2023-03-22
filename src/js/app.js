@@ -129,6 +129,42 @@ if (document.querySelector('.slider-blog__body')) {
 		// }
 	});
 }
+if (document.querySelector('.slider-posts__body')) {
+	new Swiper('.slider-posts__body', {
+		observer: true,
+		observeParents: true,
+		slidesPerView: 2,
+		watchOverflow: false,
+		speed: 800,
+		loop: true,
+		loopAdditionalSlides: 5,
+		preloadImage: false,
+		// parallax: true,
+		// pagination: {
+		// 	el: '.slider-contact__controls .dots',
+		// 	clickable: true,
+		// 	dynamicBullets: true,
+		// },
+		navigation: {
+			nextEl: '.slider-posts .slider-arrow--next',
+			prevEl: '.slider-posts .slider-arrow--prev',
+		},
+		// breakpoints: {
+		// 	279: {
+		// 		slidesPerView: 1.1,
+		// 		spaceBetween: 15,
+		// 	},
+		// 	768: {
+		// 		slidesPerView: 2,
+		// 		spaceBetween: 20,
+		// 	},
+		// 	992: {
+		// 		slidesPerView: 3,
+		// 		spaceBetween: 32,
+		// 	},
+		// }
+	});
+}
 // ------Swiper-End-------
 
 window.onload = function () {
