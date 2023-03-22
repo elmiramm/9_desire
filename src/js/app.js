@@ -134,6 +134,7 @@ if (document.querySelector('.slider-posts__body')) {
 		observer: true,
 		observeParents: true,
 		slidesPerView: 2,
+		spaceBetween: 177,
 		watchOverflow: false,
 		speed: 800,
 		loop: true,
