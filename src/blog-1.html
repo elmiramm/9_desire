@@ -2,7 +2,7 @@
 <html lang="en">
 
 @@include("html/head.html", {
-title: "Desire | Blog"
+title: "Desire | Blog-1"
 })
 
 <body>
@@ -10,14 +10,15 @@ title: "Desire | Blog"
 		@@include("html/header.html")
 		@@include("html/breadcrumbs.html", {
 		link: "#",
-		linkTitle: "Blog",
+		linkTitle: "Blog/ Single Post",
 		className: "blog",
 		})
 
-		<main class="page blog">
+		<main class="page blog-page">
 			<section class="blog">
 				<div class="container">
 					<div class="blog__inner">
+						@@include("html/blog-1.html")
 						@@include("html/aside.html")
 					</div>
 				</div>
