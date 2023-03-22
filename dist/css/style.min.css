@@ -1376,3 +1376,26 @@ select {
   margin-bottom: 10px;
   padding: 0px 16px;
 }
+
+.blog-1 {
+  width: 729px;
+}
+.blog-1 .blog__blockquote {
+  padding: 40px 42px 29px;
+  text-align: left;
+  font-stretch: semi-condensed;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+.blog-1 .blog__blockquote-author {
+  font-size: 16px;
+}
+.blog-1 .blog__blockquote-author::before {
+  left: 0;
+  transform: translateX(0);
+}
+.blog-1 .blog__tags {
+  margin-top: 75px;
+  font-size: 20px;
+  line-height: 1.55;
+}
