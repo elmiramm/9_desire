@@ -63,27 +63,28 @@
 			Comments:
 		</h3>
 		<div class="comments__item">
-			<img class="comments__item-img" src="@img/comments-avatar.png" alt="User's avatar">
+			<img class="comments__item-avatar" src="@img/comments-avatar.png" alt="User's avatar">
 			<div class="comments__content">
 				<div class="comments__info">
 					<h5 class="comments__author">Lea Brown</h5>
 					<p class="comments__date">August 12, 2020</p>
 				</div>
-				<button type="comments__reply">Reply</button>
+				<button class="comments__reply">Reply</button>
 				<p class="comments__text">Tumeric tousled austin, kinfolk scenester authentic craft beer truffaut irony
 					intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche</p>
 			</div>
-			<form action="#" class="comments__form">
-				<h5 class="comments__form-title">Post a Comment</h5>
-				<textarea class="comments__form-textarea" placeholder="Your comment" cols="30" rows="10"></textarea>
-				<input class="comments__form-input" type="text" placeholder="You name">
-				<input class="comments__form-input" type="email" placeholder="You email">
-				<label class="comments__form-label">
-					<input class="comments__form-checkbox" type="checkbox">
-				</label>
-				<button class="comments__form-btn btn" type="submit">Submit</button>
-			</form>
 		</div>
+		<form action="#" class="comments__form">
+			<h5 class="comments__form-title">Post a Comment</h5>
+			<textarea class="comments__form-textarea" placeholder="Your comment" cols="30" rows="5"></textarea>
+			<input class="comments__form-input comments__form-input--margin-right" type="text" placeholder="You name">
+			<input class="comments__form-input" type="email" placeholder="You email">
+			<label class="comments__form-label">
+				<input class="comments__form-checkbox" type="checkbox">
+				Remember me
+			</label>
+			<button class="comments__form-btn btn" type="submit">Submit</button>
+		</form>
 	</div>
 
 </div>

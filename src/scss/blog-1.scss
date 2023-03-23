@@ -17,6 +17,8 @@
 	.blog__tags {
 		margin-top: 75px;
 		margin-bottom: 39px;
+	}
+	.blog__tags-title {
 		font-size: 20px;
 		line-height: 1.55;
 	}
@@ -42,5 +44,9 @@
 		padding: 0;
 		margin: 0 -32px;
 	}
-
+	.slider-arrow {
+		&::before {
+			font-size: 23px;
+		}
+	}
 }
