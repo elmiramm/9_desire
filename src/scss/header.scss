@@ -4,9 +4,6 @@
 		justify-content: space-between;
 		align-items: center;
 		height: 120px;
-		@media (max-width: $burgerBP) {
-			height: 88px;
-		}
 	}
 	&__btn {
 		background-color: transparent;
@@ -27,6 +24,10 @@
 	&__list-link {
 		color: rgba(54, 56, 56, 0.9033);
 		padding-bottom: 4px;
+		transition: color 0.3s ease;
+		&:hover {
+			color: $accentColor;
+		}
 	}
 }
 
@@ -43,3 +44,5 @@
 		right: 0;
 	}
 }
+
+@import "burger.scss";

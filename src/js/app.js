@@ -224,8 +224,10 @@ window.onload = function () {
 			const elem = targetElement.classList.contains('burger') ? targetElement : targetElement.closest('.burger');
 			elem.classList.toggle('active-burger');
 
-			const menuBody = document.querySelector('.header__menu');
-			menuBody.classList.toggle('menu-active');
+			const menuBody = document.querySelectorAll('.menu');
+			menuBody.forEach(item => {
+				item.classList.toggle('menu--open');
+			})
 		}
 		// -------Если кликнули на бургер-End----------
 	}
