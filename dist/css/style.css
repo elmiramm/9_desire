@@ -1752,6 +1752,9 @@ select {
   }
 }
 @media (max-width: 479.98px) {
+  .title {
+    font-size: 30px;
+  }
   .header__inner {
     flex-wrap: wrap;
     min-height: auto;
@@ -1810,10 +1813,26 @@ select {
   .active-header-link::before {
     display: none;
   }
+  .new-collection {
+    margin-bottom: 60px;
+  }
+  .new-collection__title:before {
+    width: 160px;
+  }
+  .collection__img {
+    min-height: 200px;
+  }
 }
 @media (max-width: 380px) {
+  .title {
+    font-size: 24px;
+  }
   .footer__content {
     padding: 50px 0;
+  }
+  .footer__form {
+    justify-content: center;
+    gap: 15px;
   }
   .footer__social, .footer__menu {
     width: 100%;

@@ -148,6 +148,9 @@
 }
 
 @media (max-width: $burgerBP) {
+	.title {
+		font-size: 30px;
+	}
 	//-----Header----- 
 	.header__inner {
 		flex-wrap: wrap;
@@ -216,13 +219,31 @@
 
 	}
 	//-----Header-End----- 
+	.new-collection {
+		margin-bottom: 60px;
+		&__title {
+			&:before {
+				width: 160px;
+			}
+		}
+	}
+	.collection__img {
+		min-height: 200px;
+	}
 }
 
 @media (max-width: 380px) {
+	.title {
+		font-size: 24px;
+	}
 		//-----Footer--------- 
 		.footer {
 			&__content {
 				padding: 50px 0;
+			}
+			&__form {
+				justify-content: center;
+				gap: 15px;
 			}
 			&__social,
 			&__menu {
