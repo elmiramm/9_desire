@@ -9,15 +9,24 @@
 	}
 	&__list {
 		display: flex;
+		overflow-x: auto;
+	}
+	&__list-item {
+		position: relative;
+		padding-right: 8px;
+
 	}
 	&__list-item:not(:last-child):after {
 		content: "/";
-		margin-right: 4px;
-		margin-left: -4px;
+		position: absolute;
 	}
 	&__list-link {
 		font-size: 14px;
 		line-height: 2;
+		&:hover {
+			color: #000;
+			transition: color 0.3s ease;
+		}
 	}
 }
 

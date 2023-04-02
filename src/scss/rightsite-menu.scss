@@ -1,4 +1,5 @@
 .rightsite-menu {
+	overflow: scroll;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -48,6 +49,9 @@
 	}
 	&__text {
 		margin-bottom: 75px;
+	}
+	&__img {
+		min-height: 100%;
 	}
 	
 }

@@ -559,6 +559,10 @@ select {
 .footer__social-item:not(:last-child), .footer__menu-item:not(:last-child) {
   margin-bottom: 15px;
 }
+.footer__menu-link:hover {
+  color: #000;
+  transition: color 0.3s ease;
+}
 .footer__social-link {
   display: flex;
   align-items: center;
@@ -638,6 +642,7 @@ select {
 }
 
 .rightsite-menu {
+  overflow: scroll;
   position: absolute;
   right: 0;
   top: 0;
@@ -687,6 +692,9 @@ select {
 }
 .rightsite-menu__text {
   margin-bottom: 75px;
+}
+.rightsite-menu__img {
+  min-height: 100%;
 }
 
 .top {
@@ -1049,15 +1057,23 @@ select {
 }
 .breadcrumbs__list {
   display: flex;
+  overflow-x: auto;
+}
+.breadcrumbs__list-item {
+  position: relative;
+  padding-right: 8px;
 }
 .breadcrumbs__list-item:not(:last-child):after {
   content: "/";
-  margin-right: 4px;
-  margin-left: -4px;
+  position: absolute;
 }
 .breadcrumbs__list-link {
   font-size: 14px;
   line-height: 2;
+}
+.breadcrumbs__list-link:hover {
+  color: #000;
+  transition: color 0.3s ease;
 }
 
 .page-prev {

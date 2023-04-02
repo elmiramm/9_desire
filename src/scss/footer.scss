@@ -47,6 +47,12 @@
 			margin-bottom: 15px;
 		}
 	}
+	&__menu-link {
+		&:hover {
+			color: #000;
+			transition: color 0.3s ease;
+		}
+	}
 	&__social-link {
 		display: flex;
 		align-items: center;
