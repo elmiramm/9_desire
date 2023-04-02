@@ -109,7 +109,14 @@
 	.menu__list {
 		gap: 25px;
 	}
-	//-----Header-End----- 
+	//-----Header-End-----
+	.decor {
+		padding: 50px 0;
+		min-height: 320px;
+		&__title {
+			font-size: 45px;
+		}
+	}
 	//-----Footer--------- 
 	.footer {
 		&__inner {
@@ -143,6 +150,14 @@
 		}
 		&__title {
 			font-size: 35px;
+		}
+	}
+	.decor {
+		&__title {
+			font-size: 30px;
+			&::before {
+				width: 160px;
+			}
 		}
 	}
 }
