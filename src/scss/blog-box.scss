@@ -8,7 +8,7 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 30px;
-		align-items: center;
+		align-items: start;
 	}
 	&__links {
 		font-size: 14px;
@@ -19,6 +19,7 @@
 	&__link {
 		margin-left: 10px;
 		position: relative;
+		display: inline-block;
 		&::before {
 			content: "";
 			width: 1px;
@@ -26,7 +27,11 @@
 			background-color: $textColor;
 			position: absolute;
 			left: -7px;
-			bottom: 1px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		&:hover {
+			color: #000;
 		}
 	}
 	&__item-img-link {

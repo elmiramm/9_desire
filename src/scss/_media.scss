@@ -167,6 +167,26 @@
 			grid-gap: 15px 20px;
 		}
 	}
+	.blog-box {
+		margin-bottom: 60px;
+		&__items {
+			grid-template-columns: 1fr;
+			grid-gap: 30px;
+		}
+		&__links {
+			font-size: 12px;
+		}
+		&__item-title-link {
+			font-size: 17px;
+		}
+		&__item-img {
+			width: 100%;
+		}
+		&__item-img-link {
+			width: 100%;
+			margin-bottom: 0;
+		}
+	}
 	//-----Footer--------- 
 	.footer {
 		&__info {
@@ -359,6 +379,9 @@
 		&__item-img {
 			display: none;
 		}
+	}
+	.blog-box__links {
+		font-size: 10px;
 	}
 		//-----Footer--------- 
 		.footer {
