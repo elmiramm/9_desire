@@ -1108,7 +1108,7 @@ select {
 }
 .about__title {
   max-width: 822px;
-  text-align-last: left;
+  text-align: left;
   position: relative;
   margin-bottom: 45px;
 }
@@ -1137,6 +1137,10 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.about__popup-play-link:hover svg g path {
+  fill: #FFEF35;
+  transition: fill 0.3s ease;
 }
 
 .inspiration {
@@ -1815,6 +1819,12 @@ select {
   .page-prev__title {
     font-size: 40px;
   }
+  .about__title {
+    font-size: 30px;
+  }
+  .about__content {
+    margin-bottom: 60px;
+  }
   .footer__info {
     width: 380px;
   }
@@ -1883,10 +1893,27 @@ select {
   .decor__title::before {
     width: 160px;
   }
+  .about__title {
+    font-size: 25px;
+  }
+  .about__popup {
+    min-height: 200px;
+  }
+  .about__popup-play-link {
+    display: block;
+    width: 60px;
+  }
+  .about__popup-play-link svg {
+    width: 60px;
+    height: 60px;
+  }
 }
 @media (max-width: 479.98px) {
   .title {
     font-size: 30px;
+  }
+  .about__title {
+    font-size: 25px;
   }
   .header__inner {
     flex-wrap: wrap;
@@ -1954,6 +1981,15 @@ select {
   }
   .collection__img {
     min-height: 200px;
+  }
+  .about__title::before {
+    width: 160px;
+  }
+  .about__text p:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .about__text {
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 380px) {

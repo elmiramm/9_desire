@@ -4,7 +4,7 @@
 	}
 	&__title {
 		max-width: 822px;
-		text-align-last: left;
+		text-align: left;
 		position: relative;
 		margin-bottom: 45px;
 		&::before {
@@ -34,5 +34,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+	&__popup-play-link {
+		&:hover {
+			svg g path {
+				fill: $accentColor;
+				transition: fill 0.3s ease;
+			}
+		}
 	}
 }

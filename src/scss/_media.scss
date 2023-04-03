@@ -196,6 +196,12 @@
 	.page-prev__title {
 		font-size: 40px;
 	}
+	.about__title {
+		font-size: 30px;
+	}
+	.about__content {
+		margin-bottom: 60px;
+	}
 	//-----Footer--------- 
 	.footer {
 		&__info {
@@ -285,11 +291,28 @@
 			}
 		}
 	}
+	.about__title {
+		font-size: 25px;
+	}
+	.about__popup {
+		min-height: 200px;
+	}
+	.about__popup-play-link {
+		display: block;
+		width: 60px;
+		& svg {
+			width: 60px;
+			height: 60px;
+		}
+	}
 }
 
 @media (max-width: $burgerBP) {
 	.title {
 		font-size: 30px;
+	}
+	.about__title {
+		font-size: 25px;
 	}
 	//-----Header----- 
 	.header__inner {
@@ -355,10 +378,9 @@
 
 	.active-header-link::before {
 		display: none;
-
-
 	}
 	//-----Header-End----- 
+
 	.new-collection {
 		margin-bottom: 60px;
 		&__title {
@@ -370,6 +392,18 @@
 	.collection__img {
 		min-height: 200px;
 	}
+	.about__title {
+		&::before {
+			width: 160px;
+		}
+	}
+	.about__text p:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.about__text {
+		margin-bottom: 60px;
+	}
+
 }
 
 @media (max-width: 380px) {
