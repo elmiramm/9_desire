@@ -1175,7 +1175,7 @@ select {
 }
 .inspiration__title {
   margin-bottom: 41px;
-  text-align-last: left;
+  text-align: left;
   position: relative;
 }
 .inspiration__title::before {
@@ -1677,6 +1677,9 @@ select {
   .slider-top__title {
     font-size: 62px;
   }
+  .inspiration__inner {
+    gap: 20px;
+  }
 }
 @media (max-width: 991.98px) {
   .btn {
@@ -1825,6 +1828,30 @@ select {
   .about__content {
     margin-bottom: 60px;
   }
+  .inspiration {
+    min-height: 440px;
+  }
+  .inspiration::before {
+    height: 360px;
+  }
+  .inspiration__title {
+    font-size: 25px;
+  }
+  .inspiration__img {
+    height: auto;
+    max-width: 40%;
+    width: 50%;
+  }
+  .inspiration__text {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  .inspiration__list {
+    margin-bottom: 30px;
+  }
+  .inspiration__item-content {
+    font-size: 14px;
+  }
   .footer__info {
     width: 380px;
   }
@@ -1860,6 +1887,12 @@ select {
   }
   .page-prev__title {
     font-size: 35px;
+  }
+  .inspiration__img {
+    display: none;
+  }
+  .inspiration .container-fluid {
+    padding: 0 15px;
   }
   .footer__inner {
     flex-wrap: wrap;
@@ -1912,7 +1945,8 @@ select {
   .title {
     font-size: 30px;
   }
-  .about__title {
+  .about__title,
+  .inspiration__title {
     font-size: 25px;
   }
   .header__inner {
@@ -1983,6 +2017,9 @@ select {
     min-height: 200px;
   }
   .about__title::before {
+    width: 160px;
+  }
+  .inspiration__title:before {
     width: 160px;
   }
   .about__text p:not(:last-child) {
