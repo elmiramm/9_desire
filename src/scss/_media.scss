@@ -187,6 +187,15 @@
 			margin-bottom: 0;
 		}
 	}
+	.page-prev {
+		margin-bottom: 50px;
+	}
+	.page-prev .container {
+		min-height: 250px;
+	}
+	.page-prev__title {
+		font-size: 40px;
+	}
 	//-----Footer--------- 
 	.footer {
 		&__info {
@@ -229,6 +238,9 @@
 			grid-template-columns: repeat(2, 1fr);
 			grid-template-rows: repeat(1, 1fr);
 		}
+	}
+	.page-prev__title {
+		font-size: 35px;
 	}
 	//-----Footer--------- 
 	.footer {
@@ -382,6 +394,9 @@
 	}
 	.blog-box__links {
 		font-size: 10px;
+	}
+	.page-prev__title {
+		font-size: 25px;
 	}
 		//-----Footer--------- 
 		.footer {
