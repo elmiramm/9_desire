@@ -962,11 +962,11 @@ select {
 }
 .gallery__buttons {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 27px;
 }
 .gallery__btn {
   padding: 6px 16px;
-  margin: 0 13px;
+  margin: 0 13px 13px;
   cursor: pointer;
   font-weight: 600;
   font-size: 14px;
@@ -1707,7 +1707,7 @@ select {
     transform: translateX(-110%);
   }
   .howitworks {
-    padding: 60px 0;
+    padding: 60px 0 20px;
   }
   .howitworks__title {
     margin-bottom: 40px;
@@ -1769,6 +1769,18 @@ select {
   .howitworks__item-text {
     margin-top: 10px;
   }
+  .gallery {
+    padding: 40px 0px 60px;
+  }
+  .gallery__buttons {
+    margin-bottom: 10px;
+  }
+  .gallery__btn {
+    margin: 0 5px 10px;
+  }
+  .gallery__items {
+    grid-gap: 15px 20px;
+  }
   .footer__info {
     width: 380px;
   }
@@ -1793,6 +1805,14 @@ select {
   }
   .decor__title {
     font-size: 45px;
+  }
+  .gallery__btn {
+    font-size: 10px;
+  }
+  .gallery__items {
+    grid-gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
   }
   .footer__inner {
     flex-wrap: wrap;
