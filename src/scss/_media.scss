@@ -184,6 +184,13 @@
 		&__items {
 			grid-gap: 15px 20px;
 		}
+		&.gallery-page {
+			padding-top: 0;
+			padding-bottom: 0;
+			& .container-fluid {
+				padding: 0 15px;
+			}
+		}
 	}
 	.blog-box {
 		margin-bottom: 60px;
