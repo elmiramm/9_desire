@@ -40,6 +40,12 @@
 			font-size: 62px;
 		}
 	}
+	.map {
+		margin-top: 0;
+	}
+	.contact {
+		margin-bottom: 0;
+	}
 }
 @media (max-width: 1200px) {
 	.slider-top{
@@ -73,6 +79,9 @@
 	}
 	.menu {
 		margin: 0 auto;
+	}
+	.breadcrumbs.gallery {
+		padding: 14px 0;
 	}
 	//-----Header-End----- 
 	.slider-top{
@@ -257,6 +266,11 @@
 		}
 		&__item {
 			width: 32%;
+		}
+	}
+	.map {
+		iframe {
+			height: 350px;
 		}
 	}
 	//-----Footer--------- 
@@ -474,6 +488,16 @@
 				width: 160px;
 			}
 		}
+	}
+	.contact__title{
+		margin-bottom: 50px;
+		&::before {
+			width: 160px;
+			bottom: -24px;
+		}
+	} 
+	.contact__social {
+		gap: 20px;
 	}
 	.about__text p:not(:last-child) {
 		margin-bottom: 20px;

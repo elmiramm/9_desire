@@ -958,7 +958,7 @@ select {
 }
 
 .gallery {
-  padding: 40px 0px 88px;
+  padding: 40px 0px 44px;
 }
 .gallery__buttons {
   text-align: center;
@@ -1220,6 +1220,9 @@ select {
   margin-top: -154px;
   margin-bottom: 55px;
 }
+.map iframe {
+  height: 578px;
+}
 
 .contact {
   margin-bottom: 100px;
@@ -1246,6 +1249,32 @@ select {
   gap: 36px;
   align-items: center;
   margin-bottom: 21px;
+}
+.contact__social-link {
+  transition: all 0.3s ease;
+}
+.contact__social-link--facebook:hover {
+  color: #3b5998;
+  transition: all 0.3s ease;
+}
+.contact__social-link--insta:hover {
+  color: #e6683c;
+}
+.contact__social-link--pinterest:hover {
+  color: #D32F2F;
+  transition: all 0.3s ease;
+}
+.contact__social-link--whatsapp:hover {
+  color: #40C351;
+  transition: all 0.3s ease;
+}
+.contact__social-link--youtube:hover {
+  color: #FF3D00;
+  transition: all 0.3s ease;
+}
+.contact__social-link--youtube:hover svg path {
+  fill: #FF3D00;
+  transition: all 0.3s ease;
 }
 .contact__text {
   line-height: 1.75;
@@ -1673,6 +1702,12 @@ select {
   .slider-top__title {
     font-size: 62px;
   }
+  .map {
+    margin-top: 0;
+  }
+  .contact {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 1200px) {
   .slider-top {
@@ -1704,6 +1739,9 @@ select {
   }
   .menu {
     margin: 0 auto;
+  }
+  .breadcrumbs.gallery {
+    padding: 14px 0;
   }
   .slider-top {
     max-height: 100%;
@@ -1879,6 +1917,9 @@ select {
   .partners__item {
     width: 32%;
   }
+  .map iframe {
+    height: 350px;
+  }
   .footer__info {
     width: 380px;
   }
@@ -2051,6 +2092,16 @@ select {
   }
   .inspiration__title:before {
     width: 160px;
+  }
+  .contact__title {
+    margin-bottom: 50px;
+  }
+  .contact__title::before {
+    width: 160px;
+    bottom: -24px;
+  }
+  .contact__social {
+    gap: 20px;
   }
   .about__text p:not(:last-child) {
     margin-bottom: 20px;

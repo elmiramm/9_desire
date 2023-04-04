@@ -23,6 +23,32 @@
 		align-items: center;
 		margin-bottom: 21px;
 	}
+	&__social-link {
+		transition: all 0.3s ease;
+		&--facebook:hover {
+			color: #3b5998;
+			transition: all 0.3s ease;
+		}
+		&--insta:hover {
+			color: #e6683c;
+		}
+		&--pinterest:hover {
+			color: #D32F2F;
+			transition: all 0.3s ease;
+		}
+		&--whatsapp:hover {
+			color: #40C351;
+			transition: all 0.3s ease;
+		}
+		&--youtube:hover {
+			color: #FF3D00;
+			transition: all 0.3s ease;
+		}
+		&--youtube:hover svg path {
+			fill: #FF3D00;
+			transition: all 0.3s ease;
+		}
+	}
 	&__text {
 		line-height: 1.75;
 		color: #A1A1A1;
