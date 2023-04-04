@@ -1,16 +1,23 @@
 .contact__slider {
 	.collection__img {
 		min-height: 170px;
+		width: 170px;
+		height: 170px;
 	}
-
+	.collection__item {
+		display: inline-block;
+	}
 	.collection__info {
 		padding: 15px;
+		width: 100%;
+		max-width: 170px;
 	}
 	.collection__info-title {
 		font-size: 16px;
 		line-height: 1.38;
 		text-align: center;
 		margin-bottom: 0;
+		width: 100%;
 		&::before {
 			display: none;
 		}

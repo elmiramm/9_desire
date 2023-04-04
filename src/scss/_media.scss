@@ -43,9 +43,6 @@
 	.map {
 		margin-top: 0;
 	}
-	.contact {
-		margin-bottom: 0;
-	}
 }
 @media (max-width: 1200px) {
 	.slider-top{
@@ -272,6 +269,9 @@
 		iframe {
 			height: 350px;
 		}
+	}
+	.contact {
+		margin-bottom: 60px;
 	}
 	//-----Footer--------- 
 	.footer {

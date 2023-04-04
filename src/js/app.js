@@ -61,7 +61,7 @@ if (document.querySelector('.slider-contact__body')) {
 		observeParents: true,
 		slidesPerView: 10,
 		slidesPerGroup: 4, //если нужно чтобы кол-во dots было меньше кол-ва slides
-		spaceBetween: 29,
+		spaceBetween: 18,
 		watchOverflow: false,
 		speed: 800,
 		loop: true,
@@ -77,20 +77,30 @@ if (document.querySelector('.slider-contact__body')) {
 		// 	nextEl: '.slider-section .slider-arrow--next',
 		// 	prevEl: '.slider-section .slider-arrow--prev',
 		// },
-		// breakpoints: {
-		// 	279: {
-		// 		slidesPerView: 1.1,
-		// 		spaceBetween: 15,
-		// 	},
-		// 	768: {
-		// 		slidesPerView: 2,
-		// 		spaceBetween: 20,
-		// 	},
-		// 	992: {
-		// 		slidesPerView: 3,
-		// 		spaceBetween: 32,
-		// 	},
-		// }
+		breakpoints: {
+			0: {
+				slidesPerView: 1.5,
+				spaceBetween: 0,
+			},
+			450: {
+				slidesPerView: 2.5,
+				spaceBetween: 0,
+			},
+			768: {
+				slidesPerView: 3.5,
+				spaceBetween: 0,
+			},
+			992: {
+				slidesPerView: 5,
+				spaceBetween: 15,
+			},
+			1200: {
+				slidesPerView: 6
+			},
+			1750: {
+				slidesPerView: 8
+			},
+		}
 	});
 }
 if (document.querySelector('.slider-blog__body')) {
