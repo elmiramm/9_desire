@@ -324,6 +324,16 @@
 	.contact {
 		margin-bottom: 60px;
 	}
+	.comments {
+		margin-bottom: 60px;
+		&__form-input,
+		&__form-textarea,
+		&__form-input::placeholder,
+		&__form-textarea::placeholder {
+			font-size: 12px;
+			line-height: 1;
+		}
+	}
 	//-----Footer--------- 
 	.footer {
 		&__info {
@@ -442,6 +452,25 @@
 		}
 		.slider-arrow--next {
 			margin-right: -4px;
+		}
+		.comments__author {
+			font-size: 15px;
+		}
+		.comments__date {
+			font-size: 10px;
+		}
+		.comments__text{
+			font-size: 14px;
+		}
+		.comments__form-input {
+			width: 70%;
+			margin-bottom: 10px;
+		}
+		.comments__form-input--margin-right {
+			margin-right: 0px;
+		}
+		.comments__form-textarea {
+			padding: 10px 15px;
 		}
 	}
 	//-----Footer--------- 
@@ -641,6 +670,31 @@
 		padding-top: 15px;
 		margin-top: 15px;
 	}
+	.blog-1 .blog__tags-title, 
+	.blog-1 .comments__title {
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+	.comments__item {
+		flex-direction: column;
+	}
+	.comments__item-avatar {
+		align-self: center;
+	}
+	.comments__info {
+		width: 100%;
+		text-align: center;
+	}
+	.comments__reply {
+		font-size: 12px;
+		margin-left: auto;
+	}
+	.comments__text {
+		margin-top: 0px;
+	}
+	.blog-1 .comments__form-input {
+		width: 100%;
+}
 }
 
 @media (max-width: 380px) {
