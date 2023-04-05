@@ -1433,6 +1433,9 @@ select {
 .blog__categories-item:not(:last-child) {
   margin-bottom: 12px;
 }
+.blog__categories-link:hover {
+  color: #000;
+}
 .blog__post {
   margin-bottom: 50px;
 }
@@ -1445,6 +1448,9 @@ select {
 .blog__tags-title {
   margin-bottom: 14px;
 }
+.blog__tags-link:hover {
+  color: #000;
+}
 .blog__social {
   gap: 20px;
   margin-bottom: 100px;
@@ -1454,6 +1460,9 @@ select {
 }
 .blog .post__item-title {
   display: block;
+}
+.blog .post__item-title:hover {
+  color: #000;
 }
 .blog .post__item-date,
 .blog .post__item-author {

@@ -95,6 +95,11 @@
 	&__categories-item:not(:last-child) {
 		margin-bottom: 12px;
 	}
+	&__categories-link {
+		&:hover {
+			color: #000;
+		}
+	}
 	&__post {
 		margin-bottom: 50px;
 	}
@@ -107,6 +112,11 @@
 	&__tags-title {
 		margin-bottom: 14px;
 	}
+	&__tags-link {
+		&:hover {
+			color: #000;
+		}
+	}
 	&__social {
 		gap: 20px;
 		margin-bottom: 100px;
@@ -117,6 +127,9 @@
 
 	.post__item-title {
 		display: block;
+		&:hover {
+			color: #000;
+		}
 	}
 
 	.post__item-date,
