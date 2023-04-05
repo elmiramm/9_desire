@@ -160,20 +160,19 @@ if (document.querySelector('.slider-posts__body')) {
 			nextEl: '.slider-posts .slider-arrow--next',
 			prevEl: '.slider-posts .slider-arrow--prev',
 		},
-		// breakpoints: {
-		// 	279: {
-		// 		slidesPerView: 1.1,
-		// 		spaceBetween: 15,
-		// 	},
-		// 	768: {
-		// 		slidesPerView: 2,
-		// 		spaceBetween: 20,
-		// 	},
-		// 	992: {
-		// 		slidesPerView: 3,
-		// 		spaceBetween: 32,
-		// 	},
-		// }
+		breakpoints: {
+			279: {
+				slidesPerView: 1,
+				spaceBetween: 15,
+			},
+			479: {
+				slidesPerView: 2,
+				spaceBetween: 50,
+			},
+			768: {
+				spaceBetween: 177,
+			},
+		}
 	});
 }
 // ------Swiper-End-------

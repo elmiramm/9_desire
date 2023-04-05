@@ -2053,6 +2053,42 @@ select {
   .partners__item {
     width: 250px;
   }
+  .blog-1 {
+    width: 100%;
+  }
+  .blog-1 .blog__tags {
+    margin-bottom: 29px;
+  }
+  .blog-1 .blog__tags-title,
+  .blog-1 .comments__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .blog-1 .blog__tags-link {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .blog-1 .comments__form-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .blog-1 .slider-posts {
+    padding: 20px;
+    position: relative;
+  }
+  .blog-1 .slider-arrow::before {
+    font-size: 16px;
+  }
+  .blog-1 .slider-arrows {
+    padding: 0;
+    margin: 0 -20px;
+  }
+  .blog-1 .slider-arrow--prev {
+    margin-left: -4px;
+  }
+  .blog-1 .slider-arrow--next {
+    margin-right: -4px;
+  }
   .footer__inner {
     flex-wrap: wrap;
     justify-content: start;
